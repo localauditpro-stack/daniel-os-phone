@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/", "destination": "/Daniel-OS-mobile.html" }],
+  "headers": [
+    { "source": "/(.*)", "headers": [
+      { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+      { "key": "Referrer-Policy", "value": "no-referrer" }
+    ]}
+  ]
+}
